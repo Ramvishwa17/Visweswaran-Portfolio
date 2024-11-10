@@ -23,24 +23,28 @@
                 <header class="major">
                     <h2>MS Dhoni Power BI</h2>
                 </header>
-                <p>. The purpose was to visualize key metrics from Dhoni’s career, allowing for an interactive exploration of his achievements and performance trends over time.</p>
-                <div class="image fit">
-                    <img src="images/report_image.png" alt="Cricket Analysis Screenshot" style="width: 75%; height: 75%;" />
-                    </div>
+                <p>The purpose was to visualize key metrics from Dhoni’s career, allowing for an interactive exploration of his achievements and performance trends over time.</p>
+                
                 
                 <h3>Data Source</h3>
                 <ul>
                     The dataset was sourced from Kaggle and contains detailed statistics of MS Dhoni's ODI matches, including runs scored, strike rate, average, and performance against different opponents and at various venues.
                 </ul>
+                <div class="image fit">
+                  <img src="images/sampleCSV.png" alt="Cricket Analysis Screenshot" style="width: 75%; height: 75%;" />
+                  </div>
                 <h3>Data Preparation and Transformation</h3>
-                <h3 style="margin-left: 50px;">1. Cleaning and Importing Data</h3>
+                <h4 style="margin-left: 50px;">1. Cleaning and Importing Data</h4>
         <p style="margin-left: 100px;">The raw CSV file was imported into Power BI, where data cleaning steps were applied. Key tasks included:</p>
         <ul style="margin-left: 150px;">
             <li>Addressing missing values.</li>
             <li>Formatting certain columns for analysis.</li>
         </ul>
+        <div class="image fit">
+          <img src="images/final_output.png" alt="Cricket Analysis Screenshot" style="width: 75%; height: 75%;" />
+          </div>
 
-        <h3 style="margin-left: 50px;">2. Calculated Columns and Measures</h3>
+        <h4 style="margin-left: 50px;">2. Calculated Columns and Measures</h4>
         <p style="margin-left: 100px;">Calculations were created to derive key metrics, including:</p>
         <ul style="margin-left: 150px;">
             <li><strong>Total Runs Scored</strong></li>
@@ -50,42 +54,35 @@
             <li><strong>Strike Rate</strong></li>
         </ul>
 
-        <h3 style="margin-left: 50px;">3. Aggregations and Grouping</h3>
+        <h4 style="margin-left: 50px;">3. Aggregations and Grouping</h4>
         <p style="margin-left: 100px;">Data was aggregated to provide insights at various levels, including:</p>
         <ul style="margin-left: 150px;">
             <li>Year-by-year performance.</li>
             <li>Performance against each opponent.</li>
             <li>Performance at different grounds.</li>
         </ul>
-                <h3>Project Objectives</h3>
-                <ul>
-                    <li>Web scraping, Data Cleaning and form a structured data.</li>
-                    <li>Visualize match statistics over time.</li>
-                    <li>Provide actionable insights for team on at which stage our teams is by comparing with the opponents.</li>
-                </ul>
-                <h3>Technologies Used</h3>
-                <p>The project utilized the following technologies:</p>
-                <ul>
-                    <li>Python for data analysis and manipulation.</li>
-                    <li>Pandas and NumPy for data processing.</li>
-                    <li>Matplotlib for data visualization.</li>
-                </ul>
-                <section id="databricks-notebook">
-                    <h2>Databricks Notebook</h2>
-                    <!-- Paste the copied HTML content here -->
-                    <iframe src="Python Project - 1.html" style="width: 100%; height: 600px; border: none;"></iframe>
-                </section>
+        <h3>Dashboard Design and Visualizations</h3>
+        <p style="margin-left: 100px;">The Power BI dashboard consists of the following sections:</p>
+        <ul style="margin-left: 150px;">
+            <li><strong>Key Metrics Overview:</strong> A section at the top displays Dhoni’s career summary, including total runs, average, hundreds, fifties, sixes, and strike rate. These metrics provide an instant snapshot of his overall performance.</li>
+            <li><strong>Performance Over Time:</strong> A combined bar and line chart visualizes runs scored per year alongside batting average, highlighting trends and fluctuations in performance across his career.</li>
+            <li><strong>Top 10 Scores:</strong> A treemap showcases Dhoni’s highest individual scores, which helps in identifying his most impactful innings.</li>
+            <li><strong>Performance Against Opponents:</strong> A table shows detailed statistics against each team, including matches played, total runs scored, balls faced, strike rate, and average. This allows for a comparative view of his performance against different opponents.</li>
+            <li><strong>Ground-wise Performance:</strong> Another table details runs scored at various cricket grounds, helping to analyze Dhoni's performance in different venues.</li>
+        </ul>
+        <div class="image fit">
+          <img src="images/report_image.png" alt="Cricket Analysis Screenshot" style="width: 75%; height: 75%;" />
+          </div>
+        <h3>Insights and Analysis</h3>
+        <p style="margin-left: 100px;">The Power BI dashboard consists of the following sections:</p>
+        <ul style="margin-left: 150px;">
+            <li><strong>Trend Analysis:</strong>The year-by-year performance chart revealed periods of peak performance and fluctuations, showing consistency and changes in form over the years.</li>
+            <li><strong>High-impact Innings: </strong>The Top 10 Scores visualization highlighted his ability to play high-scoring innings in critical moments.</li>
+            <li><strong>Opposition and Venue Analysis:</strong>By breaking down performance against various opponents and at different grounds, insights were gained on teams and venues where Dhoni excelled or struggled.</li>
+        </ul>
                 
-                <h3>Challenges and Solutions</h3>
-                <p>During the project, faced challenges in handling missing data and some data transformations which were finally giving almost perfect output after lot of tried and tested method.</p>
-                <h3>To Be Improved</h3>
-                <p>This output can be improved by the implementing below two ideas.</p>
-                <ul>
-                    <li>Need to start the graph on (0,0).</li>
-                    <li>On the wickets only one circle is highlighting in one over. Need to show how many wickets fell on that over.</li>
-                </ul>
                 <h3>Conclusion</h3>
-                <p>The project successfully provided insights that can help teams make informed decisions on how to keep up the rate with the opponents.</p>
+                <p>This Power BI report provides a comprehensive view of MS Dhoni’s ODI career. The interactive visuals allow users to explore specific aspects of his performance and gain insights into his playing style, consistency, and impact on the field. This project not only demonstrates the use of Power BI for data visualization but also highlights the analytical approach to understanding sports data.</p>
                 <ul class="actions">
                     <li><a href="index.html" class="button">Back to Projects</a></li>
                 </ul>
